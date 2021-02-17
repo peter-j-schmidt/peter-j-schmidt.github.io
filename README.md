@@ -1,6 +1,6 @@
 # Portfolio Website
 ## Video Demo:  <URL HERE>
-## Description:
+### Description:
 
 ### For my final project for CS50, I have created a personal portfolio website to display my education, programming abilities, and other work. The website was built using HTML, CSS/SCSS, Flask, and Bootstrap. The web app is deployed to Heroku and connected to Github Pages.
 
@@ -11,7 +11,7 @@
 #### The Homepage has the aforementioned Hero Image, with my name and my title positioned evenly across the page. The Hero Image is created using CSS's background element, and has a slight linear gradient applied to it. When the viewport shrinks (for resizing or loading onto a mobile device), a different background image is displayed.
 #### The Hero Image is centered and stretches the entire height and width of the viewport. The name and title are made with Bootstrap's responsive grid layout and text sizing classes.
 #### Below the hero image is a small About section with short biography of myself and what I am currently doing. Included in the section are links to a few social media sites (Github, LinkedIn, Youtube), as well as my personal email, should a visitor wish to contact me.
-#### After the About section are a series of sections with links to other pages. Each section is made using Bootstrap's grid system, culminating in a row for the link to each page, separated by an "<hr>" element. The row containes a themed image related to the page it links to, as well as a short description of that said page.
+#### After the About section are a series of sections with links to other pages. Each section is made using Bootstrap's grid system, culminating in a row for the link to each page, separated by an "hr" tag. The row containes a themed image related to the page it links to, as well as a short description of that said page.
 
 #### All of the other pages after the homepage are rendered with their own Flask route. Each page is rendered from a template that uses Jinja to extend a "layout.html" file. The layout file contains the basic HTML structure for each page, the links to Bootstrap's CSS, Javascript, and JQuery files, and a link to a Google Fonts file.
 #### The layout file also contains a responsive Bootstrap navbar. The navbar contains links to each page rendered by the Flask app, as well as my personal email and links to the social media sites listed in the About section.
